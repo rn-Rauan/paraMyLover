@@ -36,7 +36,7 @@ function clickSim(){
     let h2 : HTMLElement;
     h2 = document.getElementById("h2") as HTMLElement;
 
-    h2.textContent = "♡ A gente já namora bobinha ♡:D";
+    h2.textContent = "♡ A gente já namora bobinha ♡:D\nTe Amooo princesa♡!!";
 
     buttonNao.style.display = "none";
     buttonSim.style.display = "none";

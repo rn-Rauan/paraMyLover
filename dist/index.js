@@ -24,7 +24,7 @@ function clickSim() {
     gif.src = "https://i.pinimg.com/originals/fa/58/b8/fa58b87e9d904c2abd828f940658eafa.gif";
     let h2;
     h2 = document.getElementById("h2");
-    h2.textContent = "♡ A gente já namora bobinha ♡:D";
+    h2.textContent = "♡ A gente já namora bobinha ♡:D\nTe Amooo princesa♡!!";
     buttonNao.style.display = "none";
     buttonSim.style.display = "none";
 }
