@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>namora comigo</title>
+    <style>
+        body{
+            background-color: rgb(253, 0, 0);
+            position: relative;
+            overflow: hidden;
+        
+        }
+
+        .painel{
+            margin: auto;
+            background-color: white;
+            width: 500px;
+            height: 550px;
+            border-radius: 30px;
+            text-align: center;
+            padding-top: 10px;
+            font-family: cursive;
+            position: relative;
+            overflow: hidden;
+
+        }
+
+        #Sim{
+            height: 40px;
+            width: 60px;
+            background-color: rgb(255, 0, 0);
+            border: 2px solid white;
+            border-radius: 10px;
+            color: aliceblue;
+            margin-left: -82px;
+            font-family: cursive;
+        }
+        #Nao{
+            position: fixed;
+            height: 40px;
+            width: 60px;
+            background-color: rgb(255, 0, 0);
+            border: 2px solid white;
+            border-radius: 10px;
+            margin-left: 20px;
+            color: aliceblue;
+            font-family: cursive;
+            transition: left 0.2s, top 0.2s;
+        }
+        #gif {
+        max-width: 80%;  /* A imagem nunca será maior que o painel */
+        max-height: 80%;  /* Ajuste para não ultrapassar o painel */
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <audio id="sond" >
+        <source src="./sound/sound2.MP3" type="audio/mp3">
+    </audio>
+
+    <div class="painel">
+        <h1>Oiii amooorzinho! :3</h1>
+
+        <img id="gif" src="https://media.tenor.com/Q9VuGIKQqEMAAAAj/love-bear.gif" alt="" >
+
+        <h2 id="h2">Aceita Namorar Comigo?:)</h2>
+
+        <link rel="stylesheet" href="">
+
+        <button id="Sim">Sim!</button>
+        <button id="Nao">Não!</button>
+    </div>
+<script src="./dist/index.js"></script>
+</body>
+</html>
